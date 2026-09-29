@@ -1,0 +1,7 @@
+[build]
+  base = "Sprint_1"
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
