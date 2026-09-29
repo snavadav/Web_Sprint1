@@ -1,0 +1,48 @@
+{
+  "station": "Águilas (AGU)",
+  "period": "2024-03-01 a 2024-03-31",
+  "records": 744,
+  "hourly_category_counts": {
+    "Buena": 534,
+    "Aceptable": 169,
+    "Mala": 41,
+    "Muy mala": 0,
+    "Extremadamente mala": 0
+  },
+  "daily_category_counts": {
+    "Buena": 9,
+    "Aceptable": 20,
+    "Mala": 2,
+    "Muy mala": 0,
+    "Extremadamente mala": 0
+  },
+  "daily_dominant_patterns": {
+    "PM10/PM2.5/O3": 13,
+    "O3": 11,
+    "PM10": 3,
+    "PM10/PM2.5": 2,
+    "PM10/O3": 1,
+    "PM2.5/O3": 1
+  },
+  "daily_co_responsible_counts": {
+    "PM10": 19,
+    "PM2.5": 16,
+    "O3": 26
+  },
+  "maxima": {
+    "PM10_raw": 132.0,
+    "PM10_NowCast": 82.0,
+    "PM2.5_raw": 52.1,
+    "PM2.5_NowCast": 27.0,
+    "O3": 0.101,
+    "ET": 33.24
+  },
+  "valid_nowcast_hours": {
+    "PM10": 744,
+    "PM2.5": 735
+  },
+  "pearson_correlations": {
+    "O3_ET": 0.783,
+    "PM10_PM2.5": 0.465
+  }
+}
